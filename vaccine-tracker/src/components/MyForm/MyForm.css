@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+.col-md-5 {
+    margin: 0px auto;
+    padding: 0px 21px !important;
+}
+
+.logo {
+    width: 200px;
+    top: 21px;
+    margin-left: calc(100% - 196px);
+}  
+
+/* Form */
+
+
+form {
+    padding-top: 10% !important;
+    font-size: 20px;
+}
+
+label {
+    font-weight: 400;
+}
+
+.form-control {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    padding: 20px;
+    height: 60px;
+    background: #ececec;
+    border: none;
+}
+
+/* Button */
+
+.btn {
+    width: 100% !important;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-align: center;
+    height: 60px;
+    padding: 20px;
+    align-items: center;
+}
+

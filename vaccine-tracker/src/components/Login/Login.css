@@ -1,0 +1,16 @@
+.rectangle-2 {
+    width: 55vw; 
+    height: 100vh;  
+    margin-right: 10px;
+}
+
+.rectangle-2 img {
+    display: block;
+    margin: auto;
+}
+
+@media (max-width: 480px) {
+    .reactangle-2 {
+        width: 0px;
+    }
+}

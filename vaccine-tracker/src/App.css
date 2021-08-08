@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  font-family: Roboto, san-serif;
+}
+
+/* Button */
+
+.btn {
+  width: 100% !important;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  text-align: center;
+  height: 55px;
+  padding: 20px;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn-primary {
+  background-color: #332272
+}
+
+.btn-secondary {
+  background-color: #ff3838;
+}
