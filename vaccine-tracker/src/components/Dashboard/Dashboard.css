@@ -1,0 +1,42 @@
+/* Details Container at the top of page */
+
+.detail-row {
+  display: flex;
+  flex-direction: row;
+  margin: 20px auto;
+  line-height: 40px;
+  justify-content: center;
+  width: 100%;
+  vertical-align: center;
+}
+
+.user-detail-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-detail-row-1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.detail-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.detail-pin {
+  font-size: 1rem;
+}
+
+.detail-email {
+  margin-top: 0px;
+  color: #7e7e7e;
+}
+
+.detail-logo {
+  height: 100px;
+  margin-left: auto;
+  float: right;
+}

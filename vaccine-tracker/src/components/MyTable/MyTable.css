@@ -1,0 +1,48 @@
+/* Button Row */
+
+.btn-row {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  margin: auto;
+  justify-content: center;
+}
+
+.btn-row > button {
+  margin: 20px;
+  max-width: 250px;
+}
+
+/* Table  */
+
+table {
+  justify-content: center;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 40px;
+}
+
+thead {
+  background: #332272;
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: #fff;
+}
+
+tbody {
+  font-size: 1rem;
+}
+
+tr,
+td {
+  height: 60px;
+  border-bottom: none !important;
+}
+
+.table-left {
+  border-radius: 4px 0px 0px 4px;
+}
+
+.table-right {
+  border-radius: 0px 4px 4px 0px;
+}

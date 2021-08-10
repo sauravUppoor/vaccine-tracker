@@ -1,16 +1,29 @@
+/* Left Half */
+
 .rectangle-2 {
-    width: 55vw; 
-    height: 100vh;  
-    margin-right: 10px;
+  width: 55vw;
+  height: 100vh;
+  margin-right: 10px;
+  background: black;
+  overflow: hidden;
 }
 
 .rectangle-2 img {
-    display: block;
-    margin: auto;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+  opacity: 0.72;
 }
 
-@media (max-width: 480px) {
-    .reactangle-2 {
-        width: 0px;
-    }
+.rectangle-text {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #fff;
+  width: 300px;
+}
+
+.title {
+  font-size: 38px;
+  font-weight: 900;
 }
