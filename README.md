@@ -35,11 +35,3 @@ To setup and run this project locally follow the steps below.
     ```
  5. Open the deployed link in browser.
 
-## Technology Stack
-
-<li> React </li>
-
-
-## Created By
-
-Saurav Uppoor
